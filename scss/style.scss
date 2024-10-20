@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'header';
+@import'footer';
+@import 'main';
+ 
+body {
+    font-family: $font-stack; 
+    max-width: 100vw;
+}

@@ -1,0 +1,69 @@
+@import 'variables';
+
+main{ 
+    h2{
+        position: sticky;
+         top: 70px;
+         
+    }
+    section:nth-of-type(1) h2{
+         background-color: $secondary-color;
+         
+         
+         
+      }
+    section:nth-of-type(2) h2{
+        background-color:$secondary-color;
+       
+
+
+      }
+    section:nth-of-type(3) h2{
+         background-color:$secondary-color;
+         
+
+
+      }
+
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:0;
+      }
+      
+    .gallery img {
+        width: 100%;
+        height: auto;
+      }
+    .fruit-hover {
+        h2{
+            background-color: $secondary-color;
+        }
+
+      }
+}
+    #top{
+    h1{
+        padding-top: 45px;
+    }
+
+    .fruit-hover img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:0;
+        height: auto;
+        width: 33%;
+    }
+    .fruit-hover img :hover{
+        
+    background-color:red ;
+    }
+    .back-to-top-btn  {
+        display: flex;
+        flex-direction: row-reverse;
+        
+
+    }
+}
+    
